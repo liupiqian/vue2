@@ -1,0 +1,25 @@
+.header{
+    height: 0.5rem;background:#ca0e25;color: #fff;display: flex;
+    padding: 0 10px;width: 100%;justify-content: space-between;
+    position: fixed;left: 0;top: 0;z-index: 1000;
+    .logo{
+        height:50px;width: 0.9rem;
+        background: url("http://www.dinghuapai.cn/wap/img/logo.png") no-repeat center center;
+        background-size: 100% auto;
+        }
+    .search{
+        width: 1.8rem;height: 0.3rem;padding: 11px 0 0 15px;position: relative;
+        span{font-size:18px;position: absolute;top: 0.17rem;left: 22px;color: #fff;}
+        input{float: left;width: 1.8rem;height: 0.3rem;outline: none;border: 0;
+            border-radius:14px;padding-left: 0.4rem;background:#d85565;
+            color: #fff;
+        }
+        .tes1::-webkit-input-placeholder{
+            color: #fff;
+        }
+        }
+    .service{
+        width: 0.76rem;font-size:0.14rem;height: 0.5rem;text-align: right;
+        line-height: 0.5rem;
+        }
+}

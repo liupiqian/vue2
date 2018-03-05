@@ -1,0 +1,11 @@
+html,body{height: 100%;background: #f4f4f4;width: 100%;}
+*{box-sizing: border-box;}
+html,body,p,input,img,ul,li,dl,dt,dd,form,fieldset,legend,h1,h2,h3,h4,h5,h6,figure,figcaption{margin: 0;padding: 0;}
+img{display: block;border:0;}
+ul,li,ol{list-style: none;}
+a,u{text-decoration: none;color: #444;}
+html{font-size: 26.67vw;}
+body{display: flex;flex-direction:column;justify-content: space-between;border: 0;}
+[v-cloak]{
+    display: none !important;
+}

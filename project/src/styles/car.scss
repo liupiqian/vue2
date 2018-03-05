@@ -1,0 +1,44 @@
+.car{
+    .foot{width: 100%;font-size: 14px;position: fixed;bottom: 0;height:0.4rem;left: 0;
+    display: flex;justify-content: space-between;
+        p{
+            width: 1.3rem;height: 0.4rem;line-height:0.4rem;padding-left: 0.1rem;
+        span{font-size: 18px;color: red;font-weight: 900;}
+        }
+        .buy{background: #CA0E25;width: 1.15rem;height: 0.4rem;line-height: 0.4rem;
+        text-align: center;color: #fff;}
+    }
+    .content{
+        padding-top:0.5rem;width: 100%;padding-bottom: 0.4rem;
+        .shang{background: #fff;padding:  0 0.1rem;margin-bottom: 0.1rem;
+        .one{
+            height: 1.2rem;width: 100%;display: flex;align-items: center;
+            .left{
+                width: 0.81rem;height: 0.9rem;border: 1px solid #ccc;margin-right: 10px;
+                img{width: 100%;height: 100%;}
+            }
+            .right{
+                height: 0.9rem;width: 2.74rem;font-size: 0.14rem;
+                
+                .two{
+                    display: flex;justify-content: space-between;margin: 10px 0;
+                    .hehe{
+                        display: flex;
+                        input{border: 0;outline: none;width: 0.4rem;height: 0.24rem;background: #fff;text-align: center;line-height: 0.24rem;}
+                         div{height: 0.24rem;width: 0.26rem;border: 1px solid #ccc;background:#fcfcfc;
+                        text-align: center;line-height: 0.24rem;
+                        i{font-size: 24px;color: #d9d9d9;}
+                        }
+                    .jian{margin-left: 0.05rem;}
+                }
+                    .laji{
+                        margin-right: 0.1rem;
+                        i{font-size: 0.2rem;color: #d9d9d9;}
+                    }
+                }
+                .price{color: #f00909;}
+            }
+        }
+    }
+    }
+}

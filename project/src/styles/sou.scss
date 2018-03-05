@@ -1,0 +1,42 @@
+#sou{
+    .gong{
+        height: 53px;width: 100%;background: #fff;position: fixed;top: 50px;
+        border-bottom: 1px solid #ccc;font-size: 0.14rem;z-index: 1000;padding-left: 10px;
+        line-height: 53px;
+        span{
+            color: red;
+        }
+    }
+    .content{
+        position: absolute;top: 100px;
+       
+        .special_offer{font-size: 0.16rem;overflow-y: auto;
+       padding: 10px 10px;width: 100%;background: #fff;margin-bottom: 0.1rem;
+        .f_con{
+            width: 100%;overflow: hidden;
+            li{float: left;margin-bottom: 0.1rem;
+                .s_flower{
+                width: 1.73rem;height: 2.59rem;border: 0.01rem solid #ccc;
+                padding: 0.07rem;font-size: 0.14rem;float: left;
+                .f_img{
+                    width: 1.57rem;height: 1.74rem;
+                    margin-bottom: 0.10rem;background: url(../assets/ti.gif) no-repeat;
+                    background-size: cover;background-position: center;
+                    img{width: 100%;height: 100%;z-index: 100;}
+                    }
+                .f_name{width: 100%;text-align: center;height: 0.4rem;overflow: hidden;}
+                .f_price{width: 100%;text-align: center;color:#ca0e25;}
+            }
+            }
+            li:nth-of-type(odd){
+                margin-right: 0.08rem;
+            }
+        }
+        
+    }
+    
+    .lodmore{
+        font-size: 16px;color: #CCC;height: 0.3rem;text-align: center;width: 100%;
+    }
+    }
+}
